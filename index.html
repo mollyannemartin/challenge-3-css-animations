@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Challenge 3</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-        <div class="logo">
-            <img src="logo.png" alt="Logo">
-            <a href="#index">K.C.Kickboxing</a>
-        </div>
-        <nav>
+        <a class="logo" href="#index"><img src="./images/KC-logo.png" alt="Logo"></a>
+        <nav class="headernav">
             <ul>
                 <li><a href="#index">Home</a></li>
                 <li><a href="#about">About Us</a></li>
@@ -22,60 +24,127 @@
         </nav>
     </header>
     <main>
+        <div class="herobgcolour">
         <section class="hero-container">
-            <div class="leftarrow">
-                <img src="left-arrow.png" alt="Left Arrow">
-            </div>
-            <div class="herocontent">
-                <h1>Kick and Counter</h1>
-                <p>Kickboxing. Learn the fundamentals. Build your confidence. Find your rhythm.</p>
-            </div>
-            <div class="rightarrow">
-                <img src="right-arrow.png" alt="Right Arrow">
-            </div>
-            <div class="hero-dots">
-                <p>•</p>
-                <p>•</p>
-                <p>•</p>
+            <div class="s">
+                <div class="slide">
+                    <img src="./images/hero1.jpg" alt="Kickboxing training">
+                    <div class="hero-text">
+                        <h1>Kick &amp; Counter</h1>
+                        <p>Learn the fundamentals. Build your confidence. Find your rhythm.</p>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <img src="./images/hero2.jpg" alt="Kickboxing practice">
+                    <div class="hero-text">
+                        <h1>Technique Before Power</h1>
+                        <p>Build balance, control and precision one movement at a time.</p>
+                    </div>
+                </div>
             </div>
         </section>
+        </div>
+
         <section class="main-content-container">
-            <img src="kickboxing.jpeg" alt="Punching camera with kickboxing hand wraps on">
+            <img src="./images/heromain.jpg" alt="Punching camera with kickboxing hand wraps on">
             <div class="main-content">
                 <h2>Build the Basics</h2>
                 <h3>Every combination starts with good fundamentals.</h3>
-                <p>Before worrying about complicated combinations, kickboxing starts with the basics: stance, movement, balance and control.</p>
-                <p>Each session is an opportunity to practise those fundamentals through drills, pad work, bag work and partner exercises.</p>
+                <p>Before worrying about complicated combinations, kickboxing starts with the basics: stance, movement,
+                    balance and control.</p>
+                <p>Each session is an opportunity to practise those fundamentals through drills, pad work, bag work and
+                    partner exercises.</p>
                 <a href="#training">Read More</a>
             </div>
         </section>
 
-        <section>
+        <section class="training">
             <h2>Training Focus</h2>
             <p>Five areas that help build a strong foundation in kickboxing.</p>
             <div class="card-container">
                 <div class="card">
-                    <img src="stance.jpeg" alt="Picture of a kickboxing stance">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="card-front">
+                                <img src="./images/stance.png" alt="Picture of a kickboxing stance">
+                            </div>
+
+                            <div class="card-back">
+                                <h3>Find your balance</h3>
+                                <p>Keep your guard up. Stay balanced and ready to move.</p>
+                            </div>
+                        </div>
+                    </div>
+
                     <h3>Stance</h3>
                     <p>Balance and positioning</p>
                 </div>
                 <div class="card">
-                    <img src="footwork.jpeg" alt="Picture of a kickboxing footwork">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="card-front">
+                                <img src="./images/footwork.jpg" alt="Picture of a kickboxing footwork">
+                            </div>
+
+                            <div class="card-back">
+                                <h3>Move with purpose</h3>
+                                <p>Step, slide and reset. Move without losing your balance.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
                     <h3>Footwork</h3>
                     <p>Move with control</p>
                 </div>
                 <div class="card">
-                    <img src="punches.jpeg" alt="Picture of a kickboxing glove">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="card-front">
+                                <img src="./images/punches.jpg" alt="Picture of a kickboxing glove">
+                            </div>
+
+                            <div class="card-back">
+                                <h3>Control every strike</h3>
+                                <p>Jab, cross and hook. Strike with control and return to guard.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
                     <h3>Punches</h3>
                     <p>Jab, cross and hooks</p>
                 </div>
                 <div class="card">
-                    <img src="kicks.jpeg" alt="Picture of a kickboxing chamber">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="card-front">
+                                <img src="./images/kicks.jpg" alt="Picture of a kickboxing chamber">
+                            </div>
+
+                            <div class="card-back">
+                                <h3>Chamber. Extend. Recover.</h3>
+                                <p>Chamber, extend and recover. Make every movement controlled.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
                     <h3>Kicks</h3>
                     <p>Chamber, extend and recover</p>
                 </div>
                 <div class="card">
-                    <img src="defence.jpeg" alt="Picture of a kickboxing defence">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="card-front">
+                                <img src="./images/defence.jpg" alt="Picture of a kickboxing defence">
+                            </div>
+
+                            <div class="card-back">
+                                <h3>Protect and respond</h3>
+                                <p>Protect your guard. Block, evade and prepare to respond.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
                     <h3>Defence</h3>
                     <p>Blocks, rolls and movement</p>
                 </div>
@@ -84,26 +153,26 @@
     </main>
     <footer>
         <div class="footercontent">
-            <section>
+            <section class="footercard">
                 <h2>Contact Us</h2>
                 <p>Ready to train or have a question?</p>
                 <form action="">
                     <label for="name">Name</label>
-                    <input type="text" id="name" name="name">
+                    <input type="text" id="name" name="name" placeholder="Full Name">
 
                     <label for="email">Email</label>
-                    <input type="email" name="email" id="email">
+                    <input type="email" name="email" id="email" placeholder="example@email.com">
 
                     <label for="message">Message</label>
-                    <textarea name="message" id="message"></textarea>
+                    <textarea name="message" id="message" placeholder="Type your message here"></textarea>
 
                     <button type="submit">Submit</button>
                 </form>
             </section>
-            <section class="sitemap">
+            <section class="footercard sitemap">
                 <h2>SiteMap</h2>
                 <p>All of our pages</p>
-                <nav>
+                <nav class="footernav">
                     <ul>
                         <li><a href="#index">Home</a></li>
                         <li><a href="#about">About Us</a></li>
@@ -113,16 +182,17 @@
                     </ul>
                 </nav>
             </section>
-            <section>
-                <img src="logo.jpeg" alt="K.C.Kickboxing Logo">
-                <p>Kick. Counter. Improve.</p>
-                <a href="mailto:K.C.Kickboxing@example.email">K.C.Kickboxing@example.email</a>
+            <section class="footercard footercontact">
+                <a class="footerlogo" href="#index"><img src="./images/KC-logo.png" alt="Logo"></a>
+                <p>Kick. <span>Counter. </span>Improve.</p>
                 <a href="tel:+01123456789">01123 456789</a>
+                <a href="mailto:K.C.Kickboxing@example.email">K.C.Kickboxing@example.email</a>
             </section>
         </div>
         <div class="footercopyright">
-            <p>Copyright. All rights reserved by K.C.Kickboxing</p>
+            <p>Copyright 2026. All rights reserved by K.C.Kickboxing</p>
         </div>
     </footer>
 </body>
+
 </html>
